@@ -14,6 +14,6 @@
 
 1. Add a new constructor to the newly created class that takes two arguments: an array of `T` elements and a `Predicate<T>` that will be used to filter the elements during the iteration.
 2. Modify the 1-ary constructor so that it calls the 2-ary constructor with a `Predicate<T>` that always returns `true`.
-3. Implement the `setIterationPolicy` method so that it sets the `Predicate<T>` that will be used to filter the elements during the iteration.
+3. Implement the `setIterationPolicy` method sot hat it sets the `Predicate<T>` that will be used to filter the elements during the iteration.
 4. Modify the implementation of the inner class (the `Iterator<T>` implementation) so that it uses the `Predicate<T>` to filter the elements during the iteration.
 5. Test the implementation by running the `TestIterableWithPolicy` class.
